@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+.env
+
+# Emacs / editors
+*~
+\#*\#          # autosave files
+
+# Data (avoid committing large/derived files)
+data/interim/
+data/processed/
+models/artifacts/
+
+# Jupyter / OS
+.ipynb_checkpoints/
+.DS_Store

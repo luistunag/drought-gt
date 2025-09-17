@@ -1,0 +1,13 @@
+paths:
+  raw: data/raw
+  processed: data/processed
+
+data:
+  climate_file: monthly_climate.csv      # rename your file or adjust this name
+  soil_file: soil_data.csv               # rename your file or adjust this name
+  merge_keys: ["LAT", "LON"]
+  output_file: dataset.csv
+
+validate:
+  required_climate_cols: ["LAT", "LON"]
+  required_soil_cols: ["LAT", "LON"]
