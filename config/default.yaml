@@ -3,8 +3,8 @@ paths:
   processed: data/processed
 
 data:
-  climate_file: monthly_climate.csv      # rename your file or adjust this name
-  soil_file: soil_data.csv               # rename your file or adjust this name
+  climate_file: monthly_climate.csv      
+  soil_file: soil_data.csv               
   merge_keys: ["LAT", "LON"]
   output_file: dataset.csv
 
